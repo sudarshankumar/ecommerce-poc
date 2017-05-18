@@ -1,5 +1,4 @@
 FROM anapsix/alpine-java:8
-USER root
 VOLUME /tmp
 ADD inventory-service-0.0.1-SNAPSHOT.jar app.jar
 RUN bash -c 'touch /app.jar'
