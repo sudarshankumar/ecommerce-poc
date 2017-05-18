@@ -75,7 +75,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                	<dockerHost>tcp://192.168.99.100:2375</dockerHost>
+                	<dockerHost>https://192.168.99.100:2375</dockerHost>
                     <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
                     <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
                     <resources>
